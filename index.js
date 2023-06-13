@@ -1,5 +1,4 @@
 var clicks=0;
-var err=0;
 document.addEventListener('click',function(l){
     let el_id=l.target.id;
     if(el_id=="menu-icon"){

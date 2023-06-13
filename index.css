@@ -47,11 +47,15 @@
     background-color: aquamarine;
     margin: -170px 0 0 -8px;
     transition: margin-top 450ms ease-in-out 1ms;
+    visibility: hidden;
 }
 
 .menu-s-li-a{
     text-decoration: none;
     color: black;
+}
+.menu-s-li-a:hover{
+    background-color: aqua;
 }
 
 .menu-s-li{
@@ -63,20 +67,7 @@
 .menu-icon:hover{
     cursor: pointer;
 }
-.menu-small-screen{
-    visibility: hidden;
-}
 
-@media only screen and (max-width:1200px){
-    
-}
-
-@media only screen and (max-width:996px){
-    
-}
-@media only screen and (max-width:768px){
-    
-}
 @media only screen and (max-width:600px){
     
     .menu{
